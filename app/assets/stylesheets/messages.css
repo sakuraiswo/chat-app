@@ -18,6 +18,23 @@
   height: 100px;
   width: 300px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-header-user a{
+  color:#fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.side-header-btn a{
+  color: deepskyblue;
+  font-size: 10px;
+  border:1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .side-main{
@@ -25,6 +42,16 @@
   height: calc(100vh - 100px);
   width: 300px;
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.side-main-room{
+  padding: 20px 0 40px;
+}
+
+.side-main-roomname a{
+  color: white;
+  text-decoration: none;
 }
 
 
