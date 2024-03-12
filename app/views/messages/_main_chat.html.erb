@@ -14,19 +14,9 @@
 
 
 <div class="chat-center">
-  <div class="chat-flame">
-    <div class="chat-name-date">
-      <div class="chat-name">
-        Tom
-      </div>
-      <div class="chat-date">
-        2020/3/31(Wed) 12:43:30
-      </div>
-    </div>
-    <div class="chat-message">
-      おはよう
-    </div>
-  </div>
+
+    <%= render partial: 'message', collection: @messages %>
+
   <div class="chat-flame">
     <div class="chat-name-date">
       <div class="chat-name">
